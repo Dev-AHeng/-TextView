@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义TextView-->
+    <declare-styleable name="MyTextView">
+        <attr name="my_text" format="string" />
+        <attr name="my_textSize" format="dimension" />
+        <attr name="my_textColor" format="color" />
+    </declare-styleable>
+
+</resources>
