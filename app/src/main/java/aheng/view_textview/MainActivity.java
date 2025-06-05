@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
+import aheng.view_textview.view.MyTextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,8 +13,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        new TextView(this);
+        
+        // 获取自定义的 MyTextView
+        MyTextView myTextView = findViewById(R.id.myTextView);
     }
 
     // This method is called when the activity is no longer visible to the user.
